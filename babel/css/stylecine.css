@@ -1,0 +1,98 @@
+@font-face{
+	font-family:'Shaka Pow Hollow';
+	src:url('../fonts/Shaka Pow Hollow.ttf') format('truetype');	    	   
+}
+
+@font-face{
+	font-family:'Shaka Pow Upright Hollow';
+	src:url('../fonts/Shaka Pow Upright Hollow.ttf') format('truetype');	   
+}
+
+@font-face{
+	font-family:'Shaka Pow Upright';
+	src:url('../fonts/Shaka Pow Upright.ttf') format('truetype');	   
+}
+
+@font-face{
+	font-family:'Shaka Pow';
+	src:url('../fonts/Shaka Pow.ttf') format('truetype');	   
+}
+
+@font-face{
+    font-family:'Cambay-Bold';
+    src:url('../fonts/Cambay-Bold.ttf') format('truetype');            
+}
+
+@font-face{
+    font-family:'Cambay-BoldItalic';
+    src:url('../fonts/Cambay-BoldItalic.ttf') format('truetype');      
+}
+
+@font-face{
+    font-family:'Cambay-Italic';
+    src:url('../fonts/Cambay-Italic.ttf') format('truetype');      
+}
+
+@font-face{
+    font-family:'Cambay-Regular';
+    src:url('../fonts/Cambay-Regular.ttf') format('truetype');     
+}
+
+h1{
+    font-family:Cambay-Bold;
+    font-size: 1.5em; 
+}
+
+h2{
+    font-family:Cambay-Bold;
+    font-size: 2em;
+    color: rgb(222,59,0); 
+}
+
+p{
+    font-family: Cambay-Regular;
+    font-size: 1em;
+}
+
+.cinemas1 {
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.cinemas2{    
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.adresses1, .adresses2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.maps1, .maps2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.maps1{
+    margin-bottom: 5%;
+}
+
+.cinemas1 img{
+    box-shadow:0px 0px 80px 50px rgb(220,220,220,10);
+}
+
+.cinemas2 img{
+    box-shadow:0px 0px 80px 50px rgb(220,220,220,10);
+}
