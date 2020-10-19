@@ -1,0 +1,13 @@
+aside form
+{
+    right:330px;
+    top:810px;
+    background-color: rgb(246,246,246);
+}
+
+aside form label
+{
+    display: flex;
+    flex-direction: column;
+}
+

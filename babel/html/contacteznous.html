@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link rel="stylesheet" type="text/css" href="../css/stylecontacteznous.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Contactez-nous</title>
+
+</head>
+<body>
+
+    <div class="toph">
+
+        <id class="logo0">
+            <img src="../images/logo_aflamy0.png">
+        </id>
+
+        <id class="biblio">
+            <div>
+                <h1>Votre bibliothèque <br />des films</h1>
+            </div>
+
+            <div class="form0">
+
+                <form method="post" action="traitement.php" class="recherche">
+                    <p>
+                        <input type="search" name="recherche" id="recherche" placeholder="Film, cathégorie... "
+                            size="20" maxlength="10">
+                        <button>Rechercher</button>
+                    </p>
+                </form>
+
+            </div>
+
+        </id>
+
+        <id class="ruban">
+            <img src="../images/ruban.png">
+    </div>
+
+    </div>
+
+    <nav>
+        <a href="babel.html" class="p1">Accueil</a>  
+        <a href="nouveautes.html" class="p2">Nouveautés</a>
+        <a href="cinema.html" class="p3">Cinémas</a>
+        <a href="top10.html" class="p4">Top 10</a>
+        <a href="boxoffice" class="p5">Box Office</a>
+    </nav>
+
+
+
+</header>
+    <form method="post" action="traitement.php">
+        <fieldset>
+            <legend> Contactez nous </legend>
+            <label for="nom">Nom et prénom:</label>
+            <input type="text" name="nom" id="nom" required/>
+            <label for="email">Adresse e-mail:</label>
+            <input type="email" name="email" id="email" required />
+            <label for="telephone" name="telephone">Numéro de téléphone:</label>
+            <input type="telephone" name="telephone" id="telephone" required>
+            <label for="sujet">Sujet:</label>
+            <input type="text" name="sujet" id="sujet" required/>
+            <label for="sujet"></label><br/>
+            <textarea name="redaction" id="redaction" rows="20" cols="70" required></textarea>
+            <input type="submit" name="submit" id="submit" value="Envoyer">                        
+        </fieldset>
+        
+    </form>
+</body>
